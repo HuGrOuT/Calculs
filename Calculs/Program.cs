@@ -1,7 +1,7 @@
 ﻿/**
  * Application "Calculs" v01 (b5 a218)
- * author : Emds
- * date : 24/05/2020
+ * author : HUGO
+ * date : 01/11/2022
  */
 using System;
 
@@ -30,15 +30,12 @@ namespace Calculs
                 Console.Write("Choix :                          ");
                 choix = Console.ReadLine();
                 // traitement des choix
-
                 val1 = rand.Next(1, 10);
                 val2 = rand.Next(1, 10);
-
                 switch (choix)
                 {
                     case "1":
                         // choix de l'addition
-                        
                         // saisie de la réponse
                         correct = false;
                         while(!correct)
@@ -67,7 +64,6 @@ namespace Calculs
                         break;
                     case "2":
                             // choix de la multiplication
-                            
                         // saisie de la réponse
                         correct = false;
                         while(!correct)
